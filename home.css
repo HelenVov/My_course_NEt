@@ -1,0 +1,337 @@
+header {
+	background: #de2b24;
+	min-height: 100vh;
+}
+
+.menu-content {
+	background: #1287bf;
+	height: 100vh;
+}
+
+footer {
+	background: #2a2a2a;
+	/*height: 70vh;*/
+}
+
+body {
+	margin: 0;
+}
+
+.copyright {
+	text-align: center;
+	background: #515151;
+}
+
+.copyright p {
+	padding: 1em;
+	font-size: 1.2vw;
+	color: #cecece;
+	font-family: 'Mukta', sans-serif;
+}
+
+.newsletter {
+	width: 60vw;
+	height: 55%;
+	margin: 0 auto;
+}
+
+p {
+	margin: 0;
+}
+
+.table-footer {
+	border-spacing: 20px;
+	margin: auto;
+}
+
+.table-footer th,
+tr {
+	width: 36px;
+	height: 37px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+
+.photo {
+	height: 58%;
+	width: 73%;
+	padding: 0 13.5%;
+}
+
+.table-photo {
+	height: 58%;
+	width: 73%;
+}
+
+.block-sqr {
+	width: 260px;
+	height: 260px;
+}
+
+.menu-four-text {
+	background-color: #f35e59;
+	float: left;
+	text-align: center;
+	margin-top: auto;
+}
+
+.menu-four-photo {
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+.menu-photo {
+	width: 1040px;
+	margin: 0 auto;
+}
+
+.menu-four-photo>img {
+	width: 100%;
+	height: max-content;
+}
+
+.our_Work {
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	padding: 4% 0 0;
+}
+
+.we_are_added_our_featured_works_below {
+	font-size: 13px;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #ffffff;
+	text-align: center;
+}
+
+.line-hr {
+	margin: 3px auto 30px;
+	width: 25px;
+	height: 2px;
+	background-color: white;
+	border: white;
+}
+
+.project-name {
+	margin: 30% 0;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.facebook {
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#face {
+	border: 1px solid red;
+	border-radius: 3px;
+}
+
+.get-in-touch {
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	padding: 10% 0 0;
+}
+
+.subscribe-to-our {
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	color: #cecece;
+	text-align: center;
+	margin: 1% 0 5%;
+}
+
+.email>input[type=email] {
+	width: 59vw;
+	height: 6vh;
+	font-size: 11px;
+	padding: 0 0 0 3%;
+	font-family: 'Roboto', sans-serif;
+	background-color: #515151;
+	border: none;
+}
+
+input[type=email]::-webkit-input-placeholder {
+	color: #cecece;
+}
+
+input[type=email]::-moz-placeholder {
+	color: #cecece;
+}
+
+.subscribe {
+	background-color: #2a2a2a;
+	margin: 0 auto;
+	width: 20%;
+	height: 37px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	color: white;
+	margin: 4% 40.6% 10%;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	font-family: 'Karla', sans-serif;
+	padding: 5% 0 0;
+}
+
+.enter-your {
+	text-align: center;
+	color: white;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 11pt;
+}
+
+.block-sqr:hover {
+	animation-duration: 2s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes slidein {
+	from {
+		background-color: #f35e59;
+	}
+	to {
+		background-color: green;
+	}
+}
+
+.line-hr-v {
+	-moz-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	-webkit-transform: rotate(50deg);
+	-o-transform: rotate(50deg);
+	transform: rotate(50deg);
+	width: 11px;
+	background: white;
+	border: 1px solid white;
+	display: inline-block;
+	margin: 0-14% 10%;
+}
+
+.v-line-hr {
+	-moz-transform: rotate(-50deg);
+	-ms-transform: rotate(-50deg);
+	-webkit-transform: rotate(-50deg);
+	-o-transform: rotate(-50deg);
+	transform: rotate(-50deg);
+	width: 11px;
+	background: white;
+	border: 1px solid white;
+	display: inline-block;
+	margin: 0-14% 10%;
+}
+
+#v {
+	border: 3px solid white;
+	border-radius: 50px;
+	width: 36px;
+	height: 37px;
+}
+
+.v {
+	margin: 1% auto;
+}
+
+.form-date {
+	width: 60vw;
+	height: 55%;
+	margin: 0 auto;
+}
+
+.submit-now {
+	background-color: #2a2a2a;
+	margin: 0 auto;
+	width: 20%;
+	background-color: #de2b24;
+	height: 37px;
+	border-radius: 3px;
+	color: white;
+	margin: 4% 40.6% 10%;
+	border: none;
+}
+
+.form-email {
+	width: 50vw;
+	height: 55vh;
+	font-size: 11px;
+	padding: 0 0 0 3%;
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.triangel {
+	border: 30px solid transparent;
+	border-bottom: 30px solid white;
+	width: 0.1%;
+	margin: -4% auto 0;
+	padding: 0;
+}
+
+.sit-down-with {
+	color: grey;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
+	text-align: center;
+	padding: 5%;
+}
+
+.circle-v {
+	border: 3px solid white;
+	border-radius: 50px;
+	width: 36px;
+	height: 37px;
+	background-color: #de2b24;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	float: right;
+	margin: -3% 5% 0;
+}
+
+.circle-v p {
+	margin: 20% 0;
+}
+
+input[type='text'] {
+	width: 60%;
+	height: 10%;
+	font-size: 11px;
+	padding: 0 3% 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+	margin: 0 15% 1%;
+	/* position: relative; */
+	/* border-radius: 4px; */
+	color: #b0b0b0;
+}
+
+.circle-v:hover {
+	border: red;
+}
+COPY TO CLIPBOARD	 SELECT A
