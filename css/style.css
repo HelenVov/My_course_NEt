@@ -1,0 +1,90 @@
+header,
+footer {
+    background-color: burlywood;
+    height: 5vh;
+    font-size: 14pt;
+    text-align: center;
+    font-family: cursive;
+    min-height: 8vh;
+    color: maroon;
+    padding: 3% 0 0 0;
+
+}
+
+.content {
+    background-color: antiquewhite;
+    margin: 0 10%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+body{
+    margin: 0;
+    background: burlywood;
+}
+
+.container{
+    height: 150px;
+    padding: 1px;
+    width: 24%;
+    border: 1px solid lightslategray;
+    margin: 1px;
+    font-size: 9pt;
+    font-family: cursive;
+    color: maroon;
+}
+
+p{
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    margin: 0 auto;
+    height: 40%;
+    display: block;
+    text-align: center;}
+
+.name{
+    height: 30%;
+    display: block;
+}
+
+.rating{
+    display: block;
+    color: black;
+}
+
+.now-price{
+    display: block;
+}
+
+.new-price, 
+.old-price{
+    display: inline-block;
+    font-style: italic;
+}
+
+.new-price{
+    float: right;
+    color: red;
+    font-style: italic;
+
+}
+
+.old-price{
+    float: left;
+    color: gray;
+    text-decoration: line-through solid red;
+}
+
+.sort-button{
+    display: block;
+    margin: 1% auto 0;
+    background-color: cadetblue;
+
+}
